@@ -25,6 +25,10 @@ github_username:  timbowman
 instagram_username: timbowman
 permalink: /:categories/:title
 
+collections:
+  projects:
+    output: true
+
 # Build settings
 markdown: kramdown
 theme: minima
