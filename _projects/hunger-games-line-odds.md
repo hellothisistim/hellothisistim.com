@@ -2,11 +2,23 @@
 title: "Hunger Games: Morning Line Odds Board"
 layout: project
 category: projects
+images:
+  first:
+    src:"{{site.url}}/img/{{ category }}/hungerGames-lineOdds-wide-large.jpg
+    width: 1024
+    height: 435
+    alt: Still of the Hunger Games morning line odds board wide shot
+  second:
+    src: {{site.url}}/img//{{ category }}/hungerGames-lineOdds-med-large.jpg
+    width: 1024
+    height: 435
+    alt: Still of the Hunger Games morning line odds board medium shot
+  third:
+    src: {{site.url}}/img//{{ category }}/hungerGames-lineOdds-cu-large.jpg
+    width: 1024
+    height: 435
+    alt: Still of the Hunger Games morning line odds board closeup
 ---
-
-<img src="{{site.url}}/img/projects/hungerGames-lineOdds-wide-large.jpg" width="1024" height="435" alt="Still of the Hunger Games morning line odds board wide shot">
-<img src="{{site.url}}/img/projects/hungerGames-lineOdds-med-large.jpg" width="1024" height="435" alt="Still of the Hunger Games morning line odds board medium shot">
-<img src="{{site.url}}/img/projects/hungerGames-lineOdds-cu-large.jpg" width="1024" height="435" alt="Still of the Hunger Games morning line odds board closeup">
 
 ## {{post.title}}
 
