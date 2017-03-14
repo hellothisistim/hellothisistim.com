@@ -1,6 +1,6 @@
 ---
-layout: project
 title: "Demo Reel: Film Compositing"
+layout: project
 category: projects
 ---
 
