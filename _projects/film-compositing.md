@@ -2,6 +2,7 @@
 title: "Demo Reel: Film Compositing"
 layout: project
 category: projects
+priority: 1
 ---
 
 QuickTime video, duration: 4&prime; 46&Prime;, 115MB

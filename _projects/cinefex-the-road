@@ -2,6 +2,7 @@
 title: "Article: The Road"
 category: projects
 template: project
+priority: 8
 images:
   first:
     src: {{ site.url }}/img/{{ page.category }}/Cinefex120_TheRoad_01.jpg

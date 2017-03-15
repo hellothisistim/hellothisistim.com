@@ -2,6 +2,7 @@
 title: "Cannondale: SuperSix"
 layout: project
 category: projects
+priority: 9
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-VECyxXaEMo?rel=0" allowfullscreen></iframe>

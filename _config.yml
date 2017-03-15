@@ -31,6 +31,8 @@ collections:
 
 # Build settings
 markdown: kramdown
+liquid:
+  error_mode: warn
 theme: minima
 gems:
   - jekyll-feed

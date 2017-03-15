@@ -20,6 +20,20 @@
 <section id="projects">
 	<h2>Projects</h2>
 
+	{% assign projects = site.projects | sort: priority %}
+	{% for project in projects reversed %}
+		<section class="FOO BAR">
+			<a href="{{ project.url }}">
+				{% if project.images %}
+				{% for image in project.images %}
+				<a href="{{ image.src }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt }}">
+					{% endfor %}
+					{% endif %}
+			<h2>A{{ project.title }}</h2>
+			</a>
+		</section>
+	{% endfor %}
+
 	<section class="reel film">
 		<a href="./projects/film-compositing/">
     	<img src="./projects/film-compositing/img/theRoad-gasStationStill-gallery.jpg" width="448" height="189" alt="">
@@ -130,6 +144,7 @@
 <div class="textOnly"><a href="#" title="Go back to the top">You have reached the bottom of the page, click here to go back to the top</a></div>
 
 <!-- Google Analytics -->
+<!--
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -139,6 +154,7 @@
   ga('create', 'UA-60239872-1', 'auto');
   ga('send', 'pageview');
 </script>
+-->
 
 </body>
 </html>

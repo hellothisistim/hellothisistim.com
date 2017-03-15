@@ -2,6 +2,7 @@
 title: "Tutorial: Automatic Write Node"
 layout: project
 category: projects
+priority: 5
 images:
   first:
     src: {{ site.url }}/img/{{ page.category }}/autowrite.png
