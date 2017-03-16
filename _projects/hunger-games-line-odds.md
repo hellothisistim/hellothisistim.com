@@ -4,21 +4,33 @@ layout: project
 category: projects
 priority: 6
 images:
-    first:
-        src: /img/projects/hungerGames-lineOdds-wide-large.jpg
-        width: 1024
-        height: 435
-        alt: Still of the Hunger Games morning line odds board wide shot
-    second:
-        src: /img/projects//hungerGames-lineOdds-med-large.jpg
-        width: 1024
-        height: 435
-        alt: Still of the Hunger Games morning line odds board medium shot
-    third:
-        src: /img/projects//hungerGames-lineOdds-cu-large.jpg
-        width: 1024
-        height: 435
-        alt: Still of the Hunger Games morning line odds board closeup
+ - src: /img/projects/hungerGames-lineOdds-wide-large.jpg
+   width: 1024
+   height: 435
+   alt: Still of the Hunger Games morning line odds board wide shot
+ - src: /img/projects//hungerGames-lineOdds-med-large.jpg
+   width: 1024
+   height: 435
+   alt: Still of the Hunger Games morning line odds board medium shot
+ - src: /img/projects//hungerGames-lineOdds-cu-large.jpg
+   width: 1024
+   height: 435
+   alt: Still of the Hunger Games morning line odds board closeup
+
+gallery-images:
+ - src: /img/projects/hungerGames-lineOdds-wide-gallery.jpg
+   width: 448
+   height: 191
+   alt: ""
+ - src: /img/projects/hungerGames-lineOdds-med-gallery.jpg
+   width: 448
+   height: 191
+   alt: ""
+ - src: /img/projects/hungerGames-lineOdds-cu-gallery.jpg
+   width: 448
+   height: 191
+   alt: ""
+
 ---
 
 ## {{ page.title }}

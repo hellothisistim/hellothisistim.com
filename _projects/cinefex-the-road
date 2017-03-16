@@ -4,11 +4,15 @@ category: projects
 template: project
 priority: 8
 images:
-  first:
-    src: {{ site.url }}/img/{{ page.category }}/Cinefex120_TheRoad_01.jpg
+  - src: /img/projects/Cinefex120_TheRoad_01.jpg
     width: 720
     height: 641
     alt: "Front cover from Cinfex #120"
+gallery-images:
+ - src: /img/projects/cinefex-theRoad-gallery.jpg
+   width: 448
+   height: 199
+   alt: ""
 ---
 
 ## {{ page.title }}

@@ -3,6 +3,13 @@ title: "Cannondale: SuperSix"
 layout: project
 category: projects
 priority: 9
+
+gallery-images:
+ - src: /img/projects/cannondale-endTagAnim-gallery.gif
+   width: 448
+   height: 252
+   alt: ""
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-VECyxXaEMo?rel=0" allowfullscreen></iframe>

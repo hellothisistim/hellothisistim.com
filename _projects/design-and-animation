@@ -3,6 +3,12 @@ title: "Demo Reel: Design & Animation"
 category: projects
 template: project
 priority: 2
+
+gallery-images:
+ - src: /img/projects/reel-designAnimation-still-gallery.jpg
+   width: 448
+   height: 252
+   alt: ""
 ---
 
 <video width="1280" height="720" controls="controls" poster="./vid/TimBowman_DesignAnimateReel-poster.jpg">

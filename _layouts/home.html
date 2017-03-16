@@ -20,21 +20,20 @@
 <section id="projects">
 	<h2>Projects</h2>
 
-	{% assign projects = site.projects | sort: priority %}
-	{% for project in projects reversed %}
+	{% assign projects = site.projects | sort:"priority" %}
+	{% for project in projects %}
 		<section class="FOO BAR">
-			<a href="{{ project.url }}">
-				{% if project.images %}
-				{% for image in project.images %}
-				<a href="{{ image.src }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt }}">
-					{% endfor %}
-					{% endif %}
-			<h2>A{{ project.title }}</h2>
+			<a href={{ project.url }}>
+			{% for image in project.gallery-images %}
+				{% assign src = site.url | append: image.src %}
+			    <img src={{ src }} width={{ image.width }} height={{ image.height }} alt={{image.alt }}>
+			{% endfor %}
+			<h2>{{ project.title }}</h2>
 			</a>
 		</section>
 	{% endfor %}
 
-	<section class="reel film">
+<!-- 	<section class="reel film">
 		<a href="./projects/film-compositing/">
     	<img src="./projects/film-compositing/img/theRoad-gasStationStill-gallery.jpg" width="448" height="189" alt="">
 		<h2>Demo Reel: Film Compositing</h2>
@@ -99,7 +98,7 @@
 		<h2>Cannondale: SuperSix</h2>
 		</a>
 	</section>	
-
+ -->
 </section>
 
 <section id="about">
@@ -121,25 +120,11 @@
  -->
 </main>
 
-<section id="socialMedia">
-	<h2>Social Media</h2>
-	<!-- Thank you to Lee Gargano for the excellent icons! https://dribbble.com/shots/1427054-Flat-Minimalistic-Social-Icons -->
-	<ul>
-		<li><a href="https://twitter.com/hellothisistim" target="_blank">Twitter</a></li>
-		<li><a href="https://instagram.com/timbowman/" target="_blank">Instagram</a></li>
-		<li><a href="http://www.imdb.com/name/nm2320204/" target="_blank">IMDB</a></li>
-		<li><a href="http://thefriendlycompositor.tumblr.com/" target="_blank">Tumblr</a></li>
-		<li><a href="http://www.linkedin.com/in/timbowman" target="_blank">LinkedIn</a></li>
-		<li><a href="https://github.com/timbowman/" target="_blank">GitHub</a></li>
-	</ul>
-</section>
 
-<footer>
-	<section id="legal">
-		<h2>Legal Matters</h2>
-		<p>All copyrights belong to the respective owners.&nbsp;Everything else is &copy; <a href="mailto:tim@hellothisistim.com">Tim Bowman</a>, <script type="text/javascript">var d = new Date();document.write(d.getFullYear());</script>. </p>
-	</section>
-</footer>
+{% include social-media.html %}
+
+{% include footer.html %}
+
 
 <div class="textOnly"><a href="#" title="Go back to the top">You have reached the bottom of the page, click here to go back to the top</a></div>
 
