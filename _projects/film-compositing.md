@@ -4,43 +4,31 @@ layout: project
 category: projects
 priority: 1
 tags: reel film
+
+schema-type: VideoObject  # itemtype from schema.org
+
 gallery-images:
  - src: /img/projects/theRoad-gasStationStill-gallery.jpg
    width: 448
    height: 189
    alt: ""
 
+videos:
+ - width: 864
+   height: 486
+   controls: controls
+   poster: /img/projects/reel-filmCompositing-still.jpg
+   source:
+    - src: /vid/projects/TimBowman_CompReel_Feat.mp4
+      type: video/mp4
+   duration:
+     minutes: 4
+     seconds: 46
+   filesize: 115
 ---
 
-<section id="project"
-	itemscope itemtype="http://schema.org/VideoObject">
-
-		<video width="864" height="486" controls="controls" poster="./img/reel-filmCompositing-still.jpg">
-			<source src={{ site.url }}/vid/projects/TimBowman_CompReel_Feat.mp4 type="video/mp4" />
-			Sorry, it looks like your browser does not support the video tag.
-		</video>
-		<h2 itemprop="name">Demo Reel: Film Compositing</h2>
-		<p class="subhead">QuickTime video, duration: 4&prime; 46&Prime;, 115MB</p>
-		<meta itemprop="duration" content="T4M46S" />
-		<p>Here’s a look at my compositing adventures in the feature film visual effects world. The work is from the following films, in order of first appearance:</p>
-		<ul>
-			<li><a href="http://www.imdb.com/title/tt1430132/" target="_blank">The Wolverine</a></li>
-			<li><a href="http://www.imdb.com/title/tt2356777/" target="_blank">True Detective</a></li>
-			<li><a href="http://www.imdb.com/title/tt0979432/" target="_blank">Boardwalk Empire</a></li>
-			<li><a href="http://www.imdb.com/title/tt1392170/" target="_blank">The Hunger Games</a></li>
-			<li><a href="http://www.imdb.com/title/tt2582846/" target="_blank">The Fault in Our Stars</a></li>
-			<li><a href="http://www.imdb.com/title/tt1343092/" target="_blank">The Great Gatsby</a></li>
-			<li><a href="http://www.imdb.com/title/tt0977855/" target="_blank">Fair Game</a></li>
-			<li><a href="http://www.imdb.com/title/tt0790628/" target="_blank">The Incredible Burt Wonderstone</a></li>
-			<li><a href="http://www.imdb.com/title/tt1436572/" target="_blank">Caf&eacute;</a></li>
-			<li><a href="http://www.imdb.com/title/tt1397514/" target="_blank">Journey 2: The Mysterious Island</a></li>
-			<li><a href="http://www.imdb.com/title/tt1228987/" target="_blank">Let Me In</a></li>
-			<li><a href="http://www.imdb.com/title/tt0898367/" target="_blank">The Road</a></li>
-			<li><a href="http://www.imdb.com/title/tt1656190/" target="_blank">Safe</a></li>
-		</ul>
-</section>
-
-QuickTime video, duration: 4&prime; 46&Prime;, 115MB
+<p class="subhead">QuickTime video, duration: {{ page.videos[0].duration.minutes }}&prime; {{ page.videos[0].duration.seconds }}&Prime;, {{ page.videos[0].filesize }}MB</p>
+<meta itemprop="duration" content="T{{ page.videos[0].duration.minutes }}M{{ page.videos[0].duration.seconds }}S" />
 
 Here’s a look at my compositing adventures in the feature film visual effects world. The work is from the following films, in order of first appearance:
 

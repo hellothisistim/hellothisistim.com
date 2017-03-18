@@ -21,6 +21,17 @@
 	    <img src={{ src }} width={{ image.width }} height={{ image.height }} alt={{image.alt }}>
 	{% endfor %}
 
+	{% for video in page.videos %}
+		{% assign poster = site.url | append: video.poster %}
+		<video width={{ video.width }} height={{ video.height}} controls={{ video.controls }} poster={{ poster }}>
+		{% assign src = site.url | append: video.src %}
+		<source src={{ src }} type={{ video.type }} />
+				Sorry, it looks like your browser does not support the video tag.
+	</video>
+	{% endfor %}
+
+
+
 	<h2 itemprop="name">{{ page.title }}</h2>
 	{{ page.content }}
 
