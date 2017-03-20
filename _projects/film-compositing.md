@@ -4,8 +4,7 @@ layout: project
 category: projects
 priority: 1
 tags: reel film
-
-schema-type: VideoObject  # itemtype from schema.org
+schemaType: CreativeWork  # itemtype from schema.org
 
 gallery-images:
  - src: /img/projects/theRoad-gasStationStill-gallery.jpg
@@ -19,8 +18,8 @@ videos:
    controls: controls
    poster: /img/projects/reel-filmCompositing-still.jpg
    source:
-    - src: /vid/projects/TimBowman_CompReel_Feat.mp4
-      type: video/mp4
+     src: /vid/projects/TimBowman_CompReel_Feat.mp4
+     type: video/mp4
    duration:
      minutes: 4
      seconds: 46

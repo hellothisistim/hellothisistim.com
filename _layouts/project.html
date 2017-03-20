@@ -23,9 +23,9 @@
 	    
 	{% for video in page.videos %}
 	    {% assign poster = site.url | append: video.poster %}
-		<video width="{{ video.width }}" height="{{ video.height}}" controls="{{ video.controls }}"" poster="{{ poster }}"">
-		{% assign src = site.url | append: video.src %}
-		<source src="{{ src }}" type="{{ video.type }}" />
+		<video width="{{ video.width }}" height="{{ video.height}}" controls="{{ video.controls }}" poster="{{ poster }}">
+		{% assign src = site.url | append: video.source.src %}
+		<source src="{{ src }}" type="{{ video.source.type }}" />
 		Sorry, it looks like your browser does not support the video tag.
 		</video>
 	{% endfor %}

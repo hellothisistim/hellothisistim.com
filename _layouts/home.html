@@ -26,7 +26,7 @@
 			<a href={{ project.url }}>
 			{% for image in project.gallery-images %}
 				{% assign src = site.url | append: image.src %}
-			    <img src={{ src }} width={{ image.width }} height={{ image.height }} alt={{image.alt }}>
+			    <img src="{{ src }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{image.alt }}">
 			{% endfor %}
 			<h2>{{ project.title }}</h2>
 			</a>

@@ -5,12 +5,12 @@ category: projects
 priority: 9
 schemaType: CreativeWork  # itemtype from schema.org
 
-
 gallery-images:
  - src: /img/projects/cannondale-endTagAnim-gallery.gif
    width: 448
    height: 252
    alt: ""
+   
 youtube-vids:
  - src: https://www.youtube-nocookie.com/embed/-VECyxXaEMo?rel=0
    width: 560
