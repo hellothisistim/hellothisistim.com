@@ -23,6 +23,6 @@ youtube-vids:
 
 ---
 
-Made at Shooters Post and Transfer (now [Alkemy X](http://www.alkemy-x.com/)) for [Mangos](http://www.mangosinc.com/)
+<p class="subhead">Made at Shooters Post and Transfer (now <a href="http://www.alkemy-x.com/" target="_blank">Alkemy X</a>) for <a href="http://www.mangosinc.com/" target="_blank">Mangos</a></p>
 
 These end tags were inspired by Kyle Cooper. They echo the dynamism of Cannondale's new race bike, the SuperSix, ridden by Team Liquigas in the Tour de France.

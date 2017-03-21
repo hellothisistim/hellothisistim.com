@@ -2,7 +2,7 @@
 title: PA Film
 layout: project
 category: projects
-priority: 5
+priority: 4
 schema-type: CreativeWork  # itemtype from schema.org
 
 gallery-images:

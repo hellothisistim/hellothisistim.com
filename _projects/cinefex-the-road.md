@@ -12,7 +12,7 @@ gallery-images:
    alt: ""
 
 images:
- - src: /img/projects/Cinefex120_TheRoad_03.jpg
+ - src: /img/projects/Cinefex120_TheRoad_01.jpg
    width: 720
    height: 641
    alt: "First page of article about The Road in Cinfex #120"
