@@ -7,7 +7,7 @@ rvm:
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-install: gem install jekyll html-proofer
+install: gem install "jekyll -v '3.4.2'" #html-proofer
 #script: jekyll build && htmlproofer ./_site
 script: ls
 script: jekyll
