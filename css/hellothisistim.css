@@ -474,11 +474,6 @@ footer {
     padding-right: 1em;
     padding-top: 0.25em;
     padding-bottom: 5em;
-    /* clearfix: https://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best */
-    content: "";
-    display: table;
-    clear: both;
-    width: 100%;
 }
 #legal {
     font-size: 0.75em;
@@ -740,6 +735,11 @@ section#about h3 {
 footer {
     margin-left: 180px;
     width: initial;
+    /* clearfix: https://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best */
+    content: "";
+    display: table;
+    clear: both;
+    width: 412px;
 }
 }
 
