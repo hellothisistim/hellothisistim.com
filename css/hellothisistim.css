@@ -328,7 +328,7 @@ nav a:hover {
     margin-top: 0.5em;
 }
 #project p:first-of-type:not(.subhead) {
-    margin-top: 1em;
+    margin-top: 0.75em;
 }
 #project p:not(.subhead), #project ul {
     text-indent: 1.25em;
@@ -610,10 +610,18 @@ section#projects section {
     margin: 0;
     width: 448px;
 }
+section#projects h2,h3 {
+    font-size: 1em;
+    margin-top: 0.125em;
+    margin-bottom: 1em;
+}
 
 section#project {
     margin-top: 52px;
     padding: 0;
+}
+#project div {
+    margin: 0;
 }
 #project iframe {
     height: 320px;
@@ -624,6 +632,9 @@ section#project p.subhead {
     margin-left: 0;
     margin-right: 0;
     width: 448px;
+}
+section#project p.subhead {
+    font-size: 0.75em;
 }
 section#about {
     width: 448px;
