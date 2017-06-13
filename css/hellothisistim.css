@@ -300,9 +300,6 @@ nav a:hover {
     height: auto;
     margin-bottom: 0.15em;
 }
-/*#project img:last-of-type, iframe:last-of-type, video:last-of-type {
-    margin-bottom: 0;
-}*/
 #project h2 {
     font-family: 'Roboto Slab', serif;
     line-height: 1.2em;
@@ -314,6 +311,7 @@ nav a:hover {
 #project div {
     margin-left: 1em;
     margin-right: 1em;
+
 }
 #project p, #project ul {
     font-size: 0.9em;
@@ -329,10 +327,13 @@ nav a:hover {
     margin-bottom: 1.2em;
     margin-top: 0.5em;
 }
+#project p:first-of-type:not(.subhead) {
+    margin-top: 1em;
+}
 #project p:not(.subhead), #project ul {
     text-indent: 1.25em;
 }
-#project ul {
+#project ul, ol {
     margin-top: 0.5em;
 }
 
@@ -480,7 +481,7 @@ footer {
     width: 100%;
 }
 #legal {
-    font-size: 0.55em;
+    font-size: 0.75em;
     line-height: 1.3em;
 }
 #legal a {
