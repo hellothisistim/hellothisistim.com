@@ -145,8 +145,8 @@ header a {
 }
 #contact {
     font-size: 0.75em;
-    line-height: 1.3em;
-    margin-top: 0.5em;
+    /*line-height: 1.3em;*/
+    /*margin-top: 0.5em;*/
     font-style: italic;
 }
 #contact ul {
@@ -520,7 +520,7 @@ header > p {
 #contact {
     text-align: left;
     font-size: initial;
-    line-height: 0.5em;
+    /*line-height: 0.5em;*/
     margin-left: 180px;
 }
 #contact ul {
