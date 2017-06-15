@@ -7,7 +7,7 @@ rvm:
 
 # from https://github.com/travis-ci/travis-ci/issues/5239#issuecomment-167355686
 before-install:
-  - gem istall bundler
+  - gem install bundler
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
