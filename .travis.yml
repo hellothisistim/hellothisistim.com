@@ -13,7 +13,7 @@ before-install:
 # the `install` step will run `bundle install` by default.
 install: gem install jekyll -v '3.4.2' #html-proofer
 #script: jekyll build && htmlproofer ./_site
-script: jekyll -v
+#script: jekyll -v
 
 # branch whitelist, only for GitHub Pages
 # branches:
@@ -26,4 +26,3 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 sudo: false # route your build to the container-based infrastructure for a faster build
-dist: trusty # Try Ubuntu 14.04
