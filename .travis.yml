@@ -9,7 +9,12 @@ rvm:
 # the `install` step will run `bundle install` by default.
 install: gem install jekyll html-proofer
 #script: jekyll build && htmlproofer ./_site
-script: ls
+#script: ls
+script:
+ - whoami
+ - pwd
+ - ls
+ - jekyll -v
 
 # branch whitelist, only for GitHub Pages
 # branches:
