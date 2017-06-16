@@ -10,7 +10,7 @@ gallery-images:
  - src: /img/projects/cinefex-theRoad-gallery.jpg
    width: 448
    height: 199
-   alt: ""
+   alt: "Cinefex - The Road"
 
 images:
  - src: /img/projects/Cinefex120_TheRoad_01.jpg
