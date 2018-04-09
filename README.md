@@ -1,2 +1,3 @@
 # hellothisistim.com
-These are the files for my web site at http://hellothisistim.com
+
+This project is no longer active.
